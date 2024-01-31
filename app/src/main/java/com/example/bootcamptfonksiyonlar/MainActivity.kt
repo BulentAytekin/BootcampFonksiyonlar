@@ -44,6 +44,12 @@ class MainActivity : AppCompatActivity() {
         println("iç açıların toplamı :$icAcilarToplami")
 
 
+        //maaş hesaplaması
+
+        val maas=odev.maasHesapla(24)
+        println("aylık maaş : $maas")
+
+
 
 
 

@@ -78,6 +78,28 @@ class FonksiyonOdevleri {
     }
 
 
+    //Parametre olarak girilen gün sayısına göre maaş hesabı yapan ve elde edilen değeri döndüren metod
+    //1.)1 günde 8 saat çalışılabilir
+    //2.)çalışma saat ücreti 40 tl
+    //3.)Mesai saat ücreti 80 tl
+    //4.) 150 saat üzeri mesai sayılır
+
+    fun maasHesapla(gun:Int):Int{
+
+        var mesai=0
+        var saat =gun*8
+
+        if (saat>150){
+            mesai=saat-150
+            var  mesaiUcreti =mesai*80
+            var ucret=150*40
+            return  mesaiUcreti+ucret
+        }
+
+        return saat*40
+    }
+
+
 
 
 
