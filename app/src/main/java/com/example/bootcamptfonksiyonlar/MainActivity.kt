@@ -20,6 +20,14 @@ class MainActivity : AppCompatActivity() {
 
         odev.dikdortgenAlani(5,9)
 
+        //faktoryel hesaplama while döngüsü ile
 
+        val sonuc =odev.faktoryelW(5)
+        println("faktoryel while ile sonuc : $sonuc")
+
+        //faktoryel hesaplama for döngüsü ile
+
+        val sonuc1=odev.faktoryelF(7)
+        println("faktoryel for ile sonuc :$sonuc1")
     }
 }

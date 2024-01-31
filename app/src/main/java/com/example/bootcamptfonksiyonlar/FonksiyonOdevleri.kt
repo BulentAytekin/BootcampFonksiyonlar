@@ -16,6 +16,37 @@ class FonksiyonOdevleri {
     }
 
 
+    //Parametre olarak girilen sayının faktoryel değerini hesaplayıp geri döndüren metot
+    //while döngüsü ile;
+
+    fun faktoryelW(sayi:Int):Long{
+
+        var sayac=sayi
+        var sonuc :Long =1
+
+        while (sayac >= 1){
+
+            sonuc*=sayac
+            sayac--
+
+        }
+        return sonuc
+    }
+
+    //Parametre olarak girilen sayının faktoryel değerini hesaplayıp geri döndüren metot
+    //for döngüsü ile;
+    fun faktoryelF(sayi:Int):Long{
+
+        var sonuc :Long=1
+        for (i in 1..sayi){
+
+            sonuc*=i
+        }
+        return sonuc
+    }
+
+
+
 
 
 
