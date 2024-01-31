@@ -8,6 +8,14 @@ class FonksiyonOdevleri {
         return km*0.621
     }
 
+    //Kenarları parametre olarak girilen ve dikdörtgen alanını hesaplayan metot
+    fun dikdortgenAlani(kısaKenar:Int,uzunKenar:Int){
+
+        val alan= kısaKenar*uzunKenar
+        println("Dikdörtgenin Alanı : ${kısaKenar*uzunKenar}")
+    }
+
+
 
 
 

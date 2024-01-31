@@ -16,5 +16,10 @@ class MainActivity : AppCompatActivity() {
         println("Km to Mil :$mil")
 
 
+        //dikdörtgen alanı hesaplama
+
+        odev.dikdortgenAlani(5,9)
+
+
     }
 }
