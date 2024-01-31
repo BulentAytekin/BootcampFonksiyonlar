@@ -35,12 +35,22 @@ class MainActivity : AppCompatActivity() {
         odev.eSayisi("kelimeler içindeki e'lerin adediBoot")
 
 
+        //her bir iç açı hesaplama
+        val icAci=odev.herBirAci(4)
+        println("herbir iç açı :$icAci")
+
+        //iç açılar toplamı
+        val icAcilarToplami=odev.icAcilarToplami(3)
+        println("iç açıların toplamı :$icAcilarToplami")
+
+
+
+
+
+
+
+
 
     }
-
-
-
-
-
 
 }

@@ -60,6 +60,24 @@ class FonksiyonOdevleri {
     }
 
 
+    //Parametre olarak girilen kenar sayısına göre her bir iç açıyı hesaplayıp sonucu geri döndüren metod
+    // her bir iç açı hesaplaması =((kenar sayısı-2)* 180)/kenar sayısı
+
+    fun herBirAci(kenarSayisi:Int):Int{
+
+        val herAci=((kenarSayisi - 2)*180)/kenarSayisi
+        return herAci
+    }
+
+    //Parametre olarak girilen kenar sayısına göre iç açılar toplamını hesaplayıp sonucu geri döndüren metod
+    // iç açılar toplamı =(kenar sayısı-2)* 180
+    fun icAcilarToplami(kenarSayisi: Int):Int{
+
+        val icAcilarToplami=(kenarSayisi-2)*180
+        return icAcilarToplami
+    }
+
+
 
 
 
