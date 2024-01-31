@@ -100,6 +100,22 @@ class FonksiyonOdevleri {
     }
 
 
+    //Parametre olarak girilen otopark süresine göre otopark ücreti hesaplayarak geri döndüren metod
+    //1.) 1 saat =50 tl
+    //2.) 1 saat aşımından sonra her 1 saat 10 tl'dir.
+
+    fun otoparkUcreti(saat:Int):Int{
+
+        if (saat>1){
+
+            val fSaat=saat-1
+            val fUcret=fSaat*10
+            return fUcret+50
+        }
+        return 50
+    }
+
+
 
 
 

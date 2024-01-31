@@ -50,6 +50,12 @@ class MainActivity : AppCompatActivity() {
         println("aylık maaş : $maas")
 
 
+        //otopark ücreti hesaplama
+
+        val otoparkUcreti=odev.otoparkUcreti(5)
+        println("otopark ücreti :$otoparkUcreti")
+
+
 
 
 
