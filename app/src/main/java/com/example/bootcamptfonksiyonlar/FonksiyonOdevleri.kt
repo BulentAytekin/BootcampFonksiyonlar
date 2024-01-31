@@ -46,6 +46,19 @@ class FonksiyonOdevleri {
     }
 
 
+    //Parametre olarak girilen kelimenin içinde kaç adet 'e' harfi olduğunu gösteren metod
+
+    fun eSayisi(kelime:String){
+        var sayac=0
+        for ( i in kelime){
+            if (i== 'e' || i== 'E'){
+                sayac++
+
+            }
+        }
+        println("cümledeki toplam e veya E harfi sayısı : $sayac")
+    }
+
 
 
 

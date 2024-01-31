@@ -29,5 +29,18 @@ class MainActivity : AppCompatActivity() {
 
         val sonuc1=odev.faktoryelF(7)
         println("faktoryel for ile sonuc :$sonuc1")
+
+
+        //Girilen kelime içindeki 'e' harfinin sayısını buluyoruz
+        odev.eSayisi("kelimeler içindeki e'lerin adediBoot")
+
+
+
     }
+
+
+
+
+
+
 }
